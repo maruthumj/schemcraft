@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "replace-schema",
+  "title": "Replace Schematic",
+  "type": "object",
+  "properties": {
+    "oldValue": {
+      "type": "string",
+      "description": "The old value to replace",
+      "minLength": 1
+    },
+    "newValue": {
+      "type": "string",
+      "description": "The new value to replace the old value with",
+      "minLength": 1
+    },
+    "filePath": {
+      "type": "string",
+      "description": "Optional file path to apply the replacement",
+      "minLength": 1
+    }
+  },
+  "required": ["oldValue", "newValue"]
+}

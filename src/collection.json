@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "replace": {
+      "description": "Schematic to replace values in application.",
+      "factory": "./replace/index#replace",
+      "schema": "./replace/schema.json"
+    }
+  }
+}
