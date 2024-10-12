@@ -1,6 +1,6 @@
 {
   "name": "@schemcraft/replace",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "A schematic to replace old values with new values in your angular project",
   "scripts": {
     "build": "tsc -p tsconfig.json",
